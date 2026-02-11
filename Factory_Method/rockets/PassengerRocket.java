@@ -1,4 +1,4 @@
-package Factory_Method;
+package Factory_Method.rockets;
 
 public class PassengerRocket implements Rocket {
     @Override

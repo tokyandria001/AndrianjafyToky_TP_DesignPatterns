@@ -1,7 +1,11 @@
 package Factory_Method;
 
+import Factory_Method.factories.*;
+import Factory_Method.rockets.Rocket;
+
 public class FactoryMethodExample {
     public static void main(String[] args) {
+
         RocketFactory cargoFactory = new CargoRocketFactory();
         Rocket cargo = cargoFactory.createRocket();
         cargo.launch();

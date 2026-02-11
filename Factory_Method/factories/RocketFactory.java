@@ -1,6 +1,7 @@
-package Factory_Method;
+package Factory_Method.factories;
 
-// Factory abstraite
+import Factory_Method.rockets.Rocket;
+
 public abstract class RocketFactory {
     public abstract Rocket createRocket(); // Méthode de création de fusée
 }
